@@ -1,5 +1,4 @@
 #!/bin/bash
-# https://github.com/rcguy/ts3server/blob/master/install_ts3-server.sh
 
 TS3_VERSION_ENDPOINT="https://ts3v.kldzj.dev/latest"
 TS3_VERSION_LATEST=$(wget -qO- $TS3_VERSION_ENDPOINT)
