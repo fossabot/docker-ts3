@@ -4,12 +4,11 @@ LABEL maintainer="kldzj"
 ENV TS3_DIR /opt/teamspeak3
 ENV LANG C.UTF-8
 
-RUN useradd -m teamspeak3 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get -y install bzip2 wget ca-certificates && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir -p ${TS3_DIR} && \
-    cd ${TS3_DIR}
+    useradd -M teamspeak3
 
 COPY . ${TS3_DIR}
 
