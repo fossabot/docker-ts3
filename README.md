@@ -1,4 +1,6 @@
 # docker-ts3
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkldzj%2Fdocker-ts3.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkldzj%2Fdocker-ts3?ref=badge_shield)
+
 
 Minimal docker image for running a TeamSpeak 3 server
 
@@ -11,3 +13,7 @@ Minimal docker image for running a TeamSpeak 3 server
 ---
 
 By using this image you agree to the TeamSpeak [Terms of Service](https://www.teamspeak.com/en/privacy-and-terms/).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkldzj%2Fdocker-ts3.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkldzj%2Fdocker-ts3?ref=badge_large)
